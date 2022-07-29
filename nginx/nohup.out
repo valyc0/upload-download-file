@@ -1,0 +1,15 @@
+docker: Error response from daemon: Conflict. The container name "/nginx-test" is already in use by container "df8fb26f534ac1964d9cac9b5850eef8ce15cfa276500b28e201e4bce7315940". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+04d6d89f6702959b4ea8dd6a876ae780307c9f572b9afefe62a3453bc928b6ba
+4adb11b8a4e6c58b46ffb9b8864c30f5ccf8758777ca8447a2ccb6361ec642ea
+7e4dfd5ed22f6f93d19c29e80512c1de73dbe8ef59f64d7ed4f4f6fd4784f706
+e325c91d5f699d29be2f44e7a63cf46aa93c490f1e903f8fae27cf286b122c02
+75a5613c1636ec48dd3409dd3ad2a938cfe2f0c86e22a1a87e7ebdfdfef1c2dd
+b537a4257878ca3a6fb6f07f39a6d8501c9e1460b82cef8f93b3fae9a71bd5ab
+docker: Error response from daemon: Conflict. The container name "/nginx-test" is already in use by container "b537a4257878ca3a6fb6f07f39a6d8501c9e1460b82cef8f93b3fae9a71bd5ab". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+docker: Error response from daemon: Conflict. The container name "/nginx-test" is already in use by container "ab49e2f43a3688173e17c0e0507ed92684fc71fa94ffc4ccff3a0bd6ba80869d". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+8fed2bda6eeea691650d6d23b2c02bc7c6ec5709f3a66bb2c8511b98d3b17427
+docker: Error response from daemon: Conflict. The container name "/nginx-test" is already in use by container "8fed2bda6eeea691650d6d23b2c02bc7c6ec5709f3a66bb2c8511b98d3b17427". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.

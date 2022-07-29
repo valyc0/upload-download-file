@@ -1,0 +1,939 @@
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:02:30.197  INFO 2949 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 2949 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:02:30.200  INFO 2949 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:02:30.884  INFO 2949 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:02:30.897  INFO 2949 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:02:30.898  INFO 2949 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:02:30.960  INFO 2949 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:02:30.961  INFO 2949 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 701 ms
+2022-07-29 12:02:31.094  INFO 2949 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:02:31.213  INFO 2949 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:02:31.217  INFO 2949 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.33 seconds (JVM running for 1.643)
+2022-07-29 12:02:49.199  INFO 2949 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  22.415 s
+[INFO] Finished at: 2022-07-29T12:02:49Z
+[INFO] ------------------------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:02:57.853  INFO 3348 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 3348 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:02:57.855  INFO 3348 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:02:58.606  INFO 3348 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:02:58.621  INFO 3348 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:02:58.621  INFO 3348 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:02:58.681  INFO 3348 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:02:58.681  INFO 3348 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 780 ms
+2022-07-29 12:02:58.817  INFO 3348 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:02:58.933  INFO 3348 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:02:58.936  INFO 3348 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.364 seconds (JVM running for 1.677)
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:07:39.532  INFO 5282 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 5282 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:07:39.535  INFO 5282 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:07:40.283  INFO 5282 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:07:40.294  INFO 5282 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:07:40.295  INFO 5282 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:07:40.358  INFO 5282 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:07:40.358  INFO 5282 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 731 ms
+2022-07-29 12:07:40.498  INFO 5282 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:07:40.600  INFO 5282 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-29 12:07:40.608  INFO 5282 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-29 12:07:40.610 ERROR 5282 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-29 12:07:40.612  INFO 5282 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.638 s
+[INFO] Finished at: 2022-07-29T12:07:40Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2022-07-29 12:13:10.838  INFO 3348 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10:15 min
+[INFO] Finished at: 2022-07-29T12:13:10Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 143 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:16:13.526  INFO 7785 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 7785 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:16:13.528  INFO 7785 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:16:14.094  INFO 7785 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:16:14.104  INFO 7785 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:16:14.104  INFO 7785 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:16:14.153  INFO 7785 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:16:14.153  INFO 7785 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 593 ms
+2022-07-29 12:16:14.269  INFO 7785 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:16:14.373  INFO 7785 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:16:14.376  INFO 7785 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.115 seconds (JVM running for 1.416)
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:18:10.729  INFO 9094 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 9094 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:18:10.732  INFO 9094 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:18:11.292  INFO 9094 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:18:11.299  INFO 9094 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:18:11.300  INFO 9094 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:18:11.343  INFO 9094 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:18:11.343  INFO 9094 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 582 ms
+2022-07-29 12:18:11.446  INFO 9094 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:18:11.533  INFO 9094 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-29 12:18:11.540  INFO 9094 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-29 12:18:11.543 ERROR 9094 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-29 12:18:11.544  INFO 9094 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.773 s
+[INFO] Finished at: 2022-07-29T12:18:11Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:37 min
+[INFO] Finished at: 2022-07-29T12:18:49Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:18:56.939  INFO 9760 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 9760 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:18:56.942  INFO 9760 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:18:57.507  INFO 9760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:18:57.514  INFO 9760 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:18:57.515  INFO 9760 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:18:57.558  INFO 9760 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:18:57.558  INFO 9760 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 577 ms
+2022-07-29 12:18:57.674  INFO 9760 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:18:57.767  INFO 9760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:18:57.770  INFO 9760 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.097 seconds (JVM running for 1.382)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47.195 s
+[INFO] Finished at: 2022-07-29T12:19:42Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:19:52.259  INFO 10456 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 10456 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:19:52.262  INFO 10456 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:19:52.816  INFO 10456 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:19:52.823  INFO 10456 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:19:52.824  INFO 10456 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:19:52.867  INFO 10456 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:19:52.867  INFO 10456 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 565 ms
+2022-07-29 12:19:52.978  INFO 10456 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:19:53.075  INFO 10456 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:19:53.079  INFO 10456 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.133 seconds (JVM running for 1.482)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:13 min
+[INFO] Finished at: 2022-07-29T12:27:03Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:28:39.836  INFO 13173 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 13173 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:28:39.839  INFO 13173 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:28:40.757  INFO 13173 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:28:40.771  INFO 13173 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:28:40.772  INFO 13173 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:28:40.838  INFO 13173 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:28:40.838  INFO 13173 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 930 ms
+2022-07-29 12:28:41.001  INFO 13173 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:28:41.131  INFO 13173 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:28:41.139  INFO 13173 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.692 seconds (JVM running for 2.119)
+2022-07-29 12:29:03.604  INFO 13173 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 12:29:03.605  INFO 13173 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 12:29:03.610  INFO 13173 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:42 min
+[INFO] Finished at: 2022-07-29T12:30:19Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:30:31.594  INFO 14061 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 14061 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:30:31.601  INFO 14061 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:30:32.615  INFO 14061 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:30:32.628  INFO 14061 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:30:32.628  INFO 14061 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:30:32.706  INFO 14061 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:30:32.706  INFO 14061 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1005 ms
+2022-07-29 12:30:32.918  INFO 14061 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:30:33.184  INFO 14061 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:30:33.189  INFO 14061 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 2.199 seconds (JVM running for 2.704)
+2022-07-29 12:30:33.192  INFO 14061 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-29 12:30:33.199 ERROR 14061 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at com.bezkoder.spring.files.upload.SpringBootUploadFilesApplication.main(SpringBootUploadFilesApplication.java:17) ~[classes/:na]
+Caused by: java.lang.RuntimeException: Could not initialize folder for upload!
+	at com.bezkoder.spring.files.upload.service.FilesStorageServiceImpl.init(FilesStorageServiceImpl.java:26) ~[classes/:na]
+	at com.bezkoder.spring.files.upload.SpringBootUploadFilesApplication.run(SpringBootUploadFilesApplication.java:23) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784) ~[spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	... 5 common frames omitted
+
+2022-07-29 12:30:33.201  INFO 14061 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.962 s
+[INFO] Finished at: 2022-07-29T12:30:33Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:35:51.974  INFO 17772 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 17772 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:35:51.977  INFO 17772 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:35:52.568  INFO 17772 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:35:52.578  INFO 17772 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:35:52.578  INFO 17772 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:35:52.647  INFO 17772 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:35:52.648  INFO 17772 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 623 ms
+2022-07-29 12:35:52.798  INFO 17772 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:35:52.905  INFO 17772 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:35:52.909  INFO 17772 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.224 seconds (JVM running for 1.563)
+2022-07-29 12:37:23.911  INFO 17772 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 12:37:23.911  INFO 17772 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 12:37:23.916  INFO 17772 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:39:41.742  INFO 20514 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 20514 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:39:41.745  INFO 20514 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:39:42.438  INFO 20514 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:39:42.449  INFO 20514 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:39:42.450  INFO 20514 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:39:42.516  INFO 20514 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:39:42.516  INFO 20514 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 711 ms
+2022-07-29 12:39:42.646  INFO 20514 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:39:42.746  INFO 20514 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-29 12:39:42.755  INFO 20514 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-29 12:39:42.757 ERROR 20514 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-29 12:39:42.759  INFO 20514 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.850 s
+[INFO] Finished at: 2022-07-29T12:39:42Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2022-07-29 12:41:38.466 ERROR 17772 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Could not load the files!] with root cause
+
+java.lang.RuntimeException: Could not load the files!
+	at com.bezkoder.spring.files.upload.service.FilesStorageServiceImpl.loadAll(FilesStorageServiceImpl.java:65) ~[classes/:na]
+	at com.bezkoder.spring.files.upload.controller.FilesController.getListFiles(FilesController.java:47) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1598) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.30.jar:9.0.30]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  06:57 min
+[INFO] Finished at: 2022-07-29T12:42:46Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 12:42:56.085  INFO 22026 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 22026 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 12:42:56.088  INFO 22026 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 12:42:57.011  INFO 22026 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 12:42:57.023  INFO 22026 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 12:42:57.026  INFO 22026 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 12:42:57.095  INFO 22026 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 12:42:57.095  INFO 22026 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 963 ms
+2022-07-29 12:42:57.239  INFO 22026 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 12:42:57.356  INFO 22026 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 12:42:57.360  INFO 22026 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.711 seconds (JVM running for 2.225)
+2022-07-29 12:43:38.508  INFO 22026 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 12:43:38.511  INFO 22026 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 12:43:38.515  INFO 22026 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.bezkoder:spring-boot-upload-files >----------------
+[INFO] Building spring-boot-upload-files 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) > test-compile @ spring-boot-upload-files >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-boot-upload-files ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ spring-boot-upload-files ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) < test-compile @ spring-boot-upload-files <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) @ spring-boot-upload-files ---
+[INFO] Attaching agents: []
+Picked up JAVA_TOOL_OPTIONS:  -Xmx3435m
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2022-07-29 14:55:05.920  INFO 1476 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Starting SpringBootUploadFilesApplication on valyc0-springbootbase-67cqsr3went with PID 1476 (/workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files/target/classes started by gitpod in /workspace/spring-boot-base/upload_file/spring-boot-upload-multipart-files)
+2022-07-29 14:55:05.922  INFO 1476 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : No active profile set, falling back to default profiles: default
+2022-07-29 14:55:06.543  INFO 1476 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-29 14:55:06.552  INFO 1476 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-29 14:55:06.552  INFO 1476 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2022-07-29 14:55:06.604  INFO 1476 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-29 14:55:06.605  INFO 1476 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 651 ms
+2022-07-29 14:55:06.724  INFO 1476 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-29 14:55:06.825  INFO 1476 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-29 14:55:06.829  INFO 1476 --- [           main] b.s.f.u.SpringBootUploadFilesApplication : Started SpringBootUploadFilesApplication in 1.168 seconds (JVM running for 1.537)
+2022-07-29 14:56:30.882  INFO 1476 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-29 14:56:30.883  INFO 1476 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-29 14:56:30.887  INFO 1476 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23:01 min
+[INFO] Finished at: 2022-07-29T15:18:03Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.2.4.RELEASE:run (default-cli) on project spring-boot-upload-files: Application finished with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
