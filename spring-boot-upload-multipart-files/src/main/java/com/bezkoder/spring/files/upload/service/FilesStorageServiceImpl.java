@@ -1,6 +1,9 @@
 package com.bezkoder.spring.files.upload.service;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.net.MalformedURLException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -30,7 +33,14 @@ public class FilesStorageServiceImpl implements FilesStorageService {
   @Override
   public void save(MultipartFile file) {
     try {
-      Files.copy(file.getInputStream(), this.root.resolve(file.getOriginalFilename()));
+      File file1 = new File("uploads"+"/"+file.getOriginalFilename());
+      if(file1.exists()){
+        file1.delete();
+      }
+      OutputStream os = new FileOutputStream(file1);
+     
+      os.write(file.getBytes());
+      //Files.copy(file.getInputStream(), this.root.resolve(file.getOriginalFilename()));
     } catch (Exception e) {
       throw new RuntimeException("Could not store the file. Error: " + e.getMessage());
     }
